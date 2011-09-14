@@ -1,0 +1,8 @@
+.deck-meta {
+    position:absolute;
+    bottom:10px;
+    left:35px;
+    color:#888;
+    z-index:3;
+    margin:0;
+}

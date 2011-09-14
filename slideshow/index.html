@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->  <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>Mobile Web mit Webstandards</title>
+	
+	<meta name="description" content="A jQuery library for modern HTML presentations">
+	<meta name="author" content="Caleb Troughton">
+	<meta name="viewport" content="width=1024, user-scalable=no">
+	
+	<!-- Core and extension CSS files -->
+	<link rel="stylesheet" href="../core/deck.core.css">
+	<link rel="stylesheet" href="../extensions/goto/deck.goto.css">
+	<link rel="stylesheet" href="../extensions/menu/deck.menu.css">
+	<link rel="stylesheet" href="../extensions/navigation/deck.navigation.css">
+	<link rel="stylesheet" href="../extensions/status/deck.status.css">
+	<link rel="stylesheet" href="../extensions/hash/deck.hash.css">
+	<link rel="stylesheet" href="../extensions/meta/deck.meta.css">
+	
+	<link rel="stylesheet" id="style-theme-link" href="../themes/style/trainxl.css">
+	<link rel="stylesheet" id="transition-theme-link" href="../themes/transition/horizontal-slide.css">
+	
+	<!-- Custom CSS just for this page -->
+<!--	<link rel="stylesheet" href="introduction.css">-->
+	
+	<script src="../modernizr.custom.js"></script>
+</head>
+
+<body class="deck-container">
+
+    <img id="logo" src="../themes/style/img/logo_trainxl_small.png" alt="Logo trainXL" />
+    
+<div class="slide" id="title-slide">
+    <h1>Mobile Web mit Webstandards<span>Mediale Hamburg, 16. September 2011</span></h1>
+</div>
+
+<div class="slide" id="whats-new-html5-1">
+	<h2>Was ist neu?</h2>
+	<h3>HTML5</h3>
+	<ul>
+            <li class="slide" id="new-block-elements">
+                <p><strong>Neue Elemente für mehr Semantik im Markup: </strong></p>
+                <pre><code>&lt;section&gt;, &lt;header&gt;, &lt;footer&gt;, &lt;aside&gt;, &lt;article&gt; u.a.</code></pre>
+            </li>
+
+            <li class="slide" id="new-input-types">
+                <p><strong>Neue Typen für &lt;input&gt;-Felder: </strong></p>
+                <pre><code>datetime, datetime-local, date, month, week u.a.</code></pre>
+            </li>
+
+            <li class="slide" id="new-graphical-elements">
+                <p><strong>Visualisierungen und nativer Multimedia-Support: </strong></p>
+                <pre><code><a href="http://soulwire.co.uk/experiments" target="_blank">&lt;canvas&gt;</a>, &lt;audio&gt;, <a href="http://www.youtube.com/watch?v=G_0J02Wp2sM" target="_blank">&lt;video&gt;</a></code></pre>
+            </li>
+            
+	</ul>
+</div>
+
+<div class="slide" id="whats-new-html5-2">
+	<h2>Was ist neu?</h2>
+	<h3>HTML5</h3>
+	<ul>
+            <li class="slide" id="offline-storage">
+                <p><strong>verschiedene Möglichkeiten, Daten im Browser offline zu speichern</strong></p>
+            </li>
+
+            <li class="slide" id="drag-and-drop">
+                <p><strong>Drag&Drop API</strong></p>
+            </li>
+
+            <li class="slide" id="geolocation">
+                <p><strong>Geolocation API</strong></p>
+            </li>
+
+            <li class="slide" id="new-div">
+                <p><strong>verschiedene kleinere und größere Neuerungen</strong></p>
+            </li>
+	</ul>
+</div>
+
+    <div class="slide" id="whats-new-css3-1">
+	<h2>Was ist neu?</h2>
+	<h3>CSS3</h3>
+	<ul>
+            <li class="slide" id="multiple-columns">
+                <p><strong>Mehrspaltigkeit für Texte</strong></p>
+            </li>
+
+            <li class="slide" id="round-corners">
+                <p><strong>Runde Ecken (endlich!)</strong></p>
+            </li>
+
+            <li class="slide" id="multiple-backgrounds">
+                <p><strong>Mehrfache Hintergrundbilder</strong></p>
+            </li>
+
+            <li class="slide" id="marquee">
+                <p><strong>Marquee </strong><span style="display:inline-block; vertical-align: bottom; overflow-x: -webkit-marquee; -webkit-marquee-direction: left; -webkit-marquee-style: scroll; -webkit-marquee-speed: normal;">Das Comeback der Laufschrift...</span></p>
+            </li>
+
+            <li class="slide" id="shadows">
+                <p><strong>verschiedene Schatten für Text und Boxen</strong></p>
+            </li>
+
+            <li class="slide" id="animations">
+                <p><strong>Animationen ohne JavaScript</strong></p>
+            </li>
+
+	</ul>
+</div>
+    
+<div class="slide" id="whats-new-css3-2">
+	<h2>Was ist neu?</h2>
+	<h3>CSS3</h3>
+	<ul>
+            <li class="slide" id="transitions">
+                <p><strong>Transitions </strong>Übergänge zwischen Zuständen</p>
+            </li>
+
+            <li class="slide" id="gradients">
+                <p><strong>Verläufe, </strong>die dynamisch auf die Ausmaße des Elements berechnet werden.</p>
+            </li>
+            
+            <li class="slide" id="font-face">
+                <p><strong>@font-face</strong> Möglichkeit, Schriften einzubinden, die nicht auf dem Client installiert sind.</p>
+            </li>
+
+            <li class="slide" id="media-queries">
+                <p><strong>Media Queries</strong> Möglichkeit, individuelles CSS in Abhängigkeit vom Viewport des Endgeräts zu nutzen.</p>
+                <pre><code>&lt;link rel="stylesheet" media="screen and (max-width: 600px)" href="small.css" /&gt;</code></pre>
+            </li>
+	</ul>
+</div>
+
+<div class="slide" id="whats-new-css3-3">
+	<h2>Was ist neu?</h2>
+	<h3>CSS3</h3>
+	<ul>
+            <li class="slide" id="webkit">
+                <p><strong>WebKit </strong><br />Die freie Engine (Chrome und Safari) <a href="http://developer.apple.com/safaridemos/" target="_blank" title="Safari Technology Demos">führt maßgeblich in Sachen Modernität</a>.</p>
+            </li>
+
+            <li class="slide" id="webkit-ios-android">
+                <p><strong>WebKit </strong>rendert Browsercontent unter iOS (iPhone, iPad) und Android.</p>
+            </li>
+            
+	</ul>
+</div>
+    
+<div class="slide" id="apps-and-sites">
+	<h2>App oder Website?</h2>
+	<blockquote cite="http://example.org">
+		<p>Web applications are for performing tasks, websites are for consuming information.</p>
+		<cite>Earle Castledine, Sitepoint</cite>
+	</blockquote>
+</div>
+    
+<div class="slide" id="responsive-webdesign-1">
+	<h2>Responsive Webdesign</h2>
+	<ul>
+            <li class="slide" id="progressive-enhancement">
+                <p><strong>Progressive Enhancement</strong><br />Ausgangspunkt ist eine Version, die mit allen gängigen Browsern kompatibel ist.</p>
+            </li>
+
+            <li class="slide" id="mobile-first">
+                <p><strong>Mobile First</strong><br />Zunächst eine Minimalversion für mobile Endgeräte erstellen, dann eine angereicherte Variante für den Desktop bauen.</p>
+            </li>
+
+            <li class="slide" id="graceful-degradation">
+                <p><strong>Graceful Degradation</strong><br />Orientierung an den Features der aktuell leistungsfähigen Browsern, abgespeckte Version für ältere Modelle.</p>
+            </li>
+	</ul>
+</div>
+
+<div class="slide" id="feature-detection-ua-sniffing">
+	<h2>Feature Detection vs. "UA Sniffing"</h2>
+	<ul>
+            <li class="slide" id="ua-sniffing">
+                <p><strong>UA Sniffing</strong><br />Unzuverlässige Methode, den User Agent (UA) auf dem Server zu ermitteln, um dann entsprechend angepassten Content auszuliefern.</p>
+            </li>
+            
+            <li class="slide" id="feature-detection">
+                <p><strong>Feature Detection</strong><br />Bestimmte Funktionalitäten mit JavaScript ermitteln und daraufhin Entscheidungen treffen.</p>
+            </li>
+            <li>
+                <ul>
+                    <li class="slide" id="modernizr">
+                        <p><strong>Modernizr</strong><br />Hilfsbibilothek zur Ermittlung von Browserfeatures.</p>
+                    </li>
+                    <li class="slide" id="yepnope">
+                        <p><strong>Yepnope</strong><br />Eigenes Projekt für Feature Detection, das in Modernizr integriert ist. Es erlaubt das Nachladen von JavaScript-Funktionen, die fehlende Features kompensieren (Polyfills).</p>
+                    </li>
+                </ul>
+            </li>
+	</ul>
+</div>
+    
+<div class="slide" id="contact-information">
+	<h1>Danke für Ihre Aufmerksamkeit!</h1>
+        <img src="../themes/style/img/trainXL_Daten_transparent.png" alt="trainXL Kontaktdaten" />
+	
+</div>
+    
+
+
+<a href="#" class="deck-prev-link" title="Previous">&#8592;</a>
+<a href="#" class="deck-next-link" title="Next">&#8594;</a>
+
+
+<p class="deck-meta">
+Axel Dürkop, trainXL    
+</p>
+
+<p class="deck-status">
+	<span class="deck-status-current"></span>
+	/
+	<span class="deck-status-total"></span>
+</p>
+
+<form action="." method="get" class="goto-form">
+	<label for="goto-slide">Go to slide:</label>
+	<input type="number" name="slidenum" id="goto-slide">
+	<input type="submit" value="Go">
+</form>
+
+<a href="." title="Permalink to this slide" class="deck-permalink">#</a>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.js"></script>
+<script>window.jQuery || document.write('<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.6.1.min.js">\x3C/script>')</script>
+
+<!-- Deck Core and extensions -->
+<script src="../core/deck.core.js"></script>
+<script src="../extensions/menu/deck.menu.js"></script>
+<script src="../extensions/goto/deck.goto.js"></script>
+<script src="../extensions/status/deck.status.js"></script>
+<script src="../extensions/navigation/deck.navigation.js"></script>
+<script src="../extensions/hash/deck.hash.js"></script>
+
+<!-- Specific to this page -->
+<script src="introduction.js"></script>
+
+</body>
+</html>
